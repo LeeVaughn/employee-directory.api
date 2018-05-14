@@ -20,7 +20,7 @@ This project was created as a part of the Treehouse Full Stack JavaScript Techde
 ## Links
 
 * Project homepage: Coming Soon!
-* Repository: Coming Soon!
+* [Repository](https://github.com/LeeVaughn/employee-directory.api)
 
 ## Author
 
