@@ -1,0 +1,13 @@
+body {
+    background-color: red;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+.card-title,
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+}
