@@ -1,0 +1,1 @@
+// api url = https://randomuser.me/api/?results=12&nat=us&exc=gender,registered,phone,id,nat
