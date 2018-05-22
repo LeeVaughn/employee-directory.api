@@ -27,8 +27,8 @@ $(document).ready(function () {
             const $modalHTML = $(`
                 <div class="modal fade" id="modal${i}" tabindex="-1" role="dialog" aria-labelledby="ModalWindow" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="card text-center">
-                            <div>
+                        <div class="modal-content card text-center">
+                            <div class="modal-header">
                                 <button type="button" class="close pr-2" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -41,7 +41,7 @@ $(document).ready(function () {
                             </div>
                             <div class="modal-body mb-4 py-2 px-5">
                                 <p class="card-text m-0 pt-3 pb-1">${data.results[i].cell}</p>
-                                <p class="card-text m-0 pb-1 caps">${data.results[i].location.street}, ${data.results[i].location.city}, ${data.results[i].location.state}</p>
+                                <p class="card-text m-0 pb-1 caps">${data.results[i].location.street}, ${data.results[i].location.city}, ${data.results[i].location.state}, ${data.results[i].location.postcode}</p>
                                 <p class="card-text">Birthday: ${data.results[i].dob.slice(5, 7)}/${data.results[i].dob.slice(8, 10)}/${data.results[i].dob.slice(2, 4)}</p>
                             </div>
                             <row class="mb-3">
@@ -111,12 +111,5 @@ $(document).ready(function () {
             $(".user-section .user").show();
         }
     });
-
-    // $("#prev").click(function() {
-    //     console.log("click event!")
-    //     $("#modal${i}").modal("hide");
-    //     $("#modal${prev}").modal("show");
-
-    // });
 
 });
