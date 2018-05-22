@@ -20,11 +20,13 @@ input {
 }
 
 .card {
+    cursor: pointer;
     transition: all .2s ease-in-out;
 }
 
 .card:hover {
     transform: scale(1.05);
+    box-shadow: 3px 3px 2px #888888;
 }
 
 .img-col {
