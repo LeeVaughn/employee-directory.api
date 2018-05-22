@@ -44,7 +44,7 @@ $(document).ready(function () {
                                 <p class="card-text m-0 pb-1 caps">${data.results[i].location.street}, ${data.results[i].location.city}, ${data.results[i].location.state}</p>
                                 <p class="card-text">Birthday: ${data.results[i].dob.slice(5, 7)}/${data.results[i].dob.slice(8, 10)}/${data.results[i].dob.slice(2, 4)}</p>
                             </div>
-                            <row>
+                            <row class="mb-3">
                                 <button type="button" id="prev" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#modal${i - 1}">Prev</button>
                                 <button type="button" id="next" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#modal${i + 1}">Next</button>
                             </row>
