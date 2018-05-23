@@ -25,7 +25,7 @@ This project was created as a part of the Treehouse Full Stack JavaScript Techde
 
 ## API
 
-* [Random User Generator(https://randomuser.me/)
+* [Random User Generator](https://randomuser.me/)
 
 ## Links
 
