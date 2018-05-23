@@ -23,6 +23,10 @@ This project was created as a part of the Treehouse Full Stack JavaScript Techde
 
 * [Bootstrap 4](https://getbootstrap.com/)
 
+## API
+
+* [Random User Generator(https://randomuser.me/)
+
 ## Links
 
 * [Project Homepage](https://leevaughn.github.io/employee-directory.api/)
