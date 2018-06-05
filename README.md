@@ -19,9 +19,9 @@ This project was created as a part of the Treehouse Full Stack JavaScript Techde
 
 * Restrict modal windows after search to only those employees who match the search term
 
-## Frameworks
+## Build With
 
-* [Bootstrap 4](https://getbootstrap.com/)
+* [Bootstrap 4](https://getbootstrap.com/) The front-end framework used
 
 ## API
 
