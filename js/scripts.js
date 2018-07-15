@@ -42,7 +42,7 @@ $(document).ready(function () {
                             <div class="modal-body mb-4 py-2 px-5">
                                 <p class="card-text m-0 pt-3 pb-1">${data.results[i].cell}</p>
                                 <p class="card-text m-0 pb-1 caps">${data.results[i].location.street}, ${data.results[i].location.city}, ${data.results[i].location.state}, ${data.results[i].location.postcode}</p>
-                                <p class="card-text">Birthday: ${data.results[i].dob.slice(5, 7)}/${data.results[i].dob.slice(8, 10)}/${data.results[i].dob.slice(2, 4)}</p>
+                                <p class="card-text">Birthday: ${data.results[i].dob.date.slice(5, 7)}/${data.results[i].dob.date.slice(8, 10)}/${data.results[i].dob.date.slice(2, 4)}</p>
                             </div>
                             <row class="mb-3">
                                 <button type="button" id="prev" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#modal${i - 1}">Prev</button>
