@@ -19,9 +19,13 @@ This project was created as a part of the Treehouse Full Stack JavaScript Techde
 
 * Restrict modal windows after search to only those employees who match the search term
 
-## Frameworks
+## Built With
 
 * [Bootstrap 4](https://getbootstrap.com/)
+
+## API
+
+* [Random User Generator](https://randomuser.me/)
 
 ## Links
 
