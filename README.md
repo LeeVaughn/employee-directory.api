@@ -17,7 +17,8 @@ This project was created as a part of the Treehouse Full Stack JavaScript Techde
 
 ## Future Improvements
 
-* Restrict modal windows after search to only those employees who match the search term
+* Disable prev and next buttons on the first and last modal windows
+* Restrict modal windows after search to only show those employees who match the search term
 
 ## Built With
 
